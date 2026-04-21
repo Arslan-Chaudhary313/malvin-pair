@@ -1,17 +1,18 @@
 {
-    "name": "pair session",
-    "description": "Web Session Generator",
-    "logo": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg",
-    "repository": "https://github.com/MARC701/malvin-pair",
-    "keywords": ["MalvinTech","XdKing2"],
+    "name": "MARC-MD Session Generator",
+    "description": "Professional Web Session Generator for ᴍᴀ𝐫𝐜-𝐦𝐝, developed by Arslan Chaudhary.",
+    "logo": "https://files.catbox.moe/qyogy8.jpg",
+    "repository": "https://github.com/Arslan-Chaudhary313",
+    "keywords": ["MARC-MD", "Arslan-Chaudhary", "WhatsApp-Bot", "Session-Generator"],
     "success_url": "/", 
-    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "buildpacks": [
+        { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } 
+    ],
     "env": {      
       "PORT": {
-        "description": "Port for web app.4000,5000,3000... any!",
-        "value": "5000",
+        "description": "Port for web app (Default is 8000)",
+        "value": "8000",
         "required": false 
       }
-    }   
-
+    }
 }
